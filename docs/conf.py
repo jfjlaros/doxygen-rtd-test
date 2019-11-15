@@ -19,7 +19,8 @@
 import subprocess
 
 #subprocess.call('doxygen; mv xhtml/index.html xhtml/doxygen.html', shell=True)
-subprocess.call('doxygen; touch dbuild/doxygen.rst', shell=True)
+#subprocess.call('doxygen; touch dbuild/doxygen.rst', shell=True)
+subprocess.call('pip install breathe; doxygen; touch dbuild/doxygen.rst', shell=True)
 
 
 # -- Project information -----------------------------------------------------
