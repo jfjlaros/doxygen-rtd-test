@@ -18,7 +18,8 @@
 
 import subprocess
 
-subprocess.call('doxygen; mv xhtml/index.html xhtml/doxygen.html', shell=True)
+#subprocess.call('doxygen; mv xhtml/index.html xhtml/doxygen.html', shell=True)
+subprocess.call('doxygen; touch dbuild/doxygen.rst', shell=True)
 
 
 # -- Project information -----------------------------------------------------
@@ -177,4 +178,4 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 #breathe_domain_by_extension = { "h" : "c", "c" : "c", "inc" : "c" }
-html_extra_path = ['xhtml']
+html_extra_path = ['dbuild']
