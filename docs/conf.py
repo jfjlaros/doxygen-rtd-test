@@ -177,4 +177,4 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 #breathe_domain_by_extension = { "h" : "c", "c" : "c", "inc" : "c" }
-html_extra_path = ['build']
+html_extra_path = ['dbuild']
