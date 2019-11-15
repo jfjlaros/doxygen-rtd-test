@@ -17,5 +17,5 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
-* `dox </html>`_
+* `dox </xhtml>`_
 * :ref:`search`
