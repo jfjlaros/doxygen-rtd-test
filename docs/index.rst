@@ -10,6 +10,9 @@ Welcome to Test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   doxygen
+   ctest
+
 
 
 Indices and tables
