@@ -17,5 +17,12 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
-* `dox </xhtml>`_
+* `dox </doxygen>`_
+* `dox2 </dbuild/doxygen>`_
+* `dox3 </xhtml/doxygen>`_
+* `dox4 </dbuild/xhtml/doxygen>`_
+* :ref:`doxygen`
+* :ref:`dbuild/doxygen`
+* :ref:`xhtml/doxygen`
+* :ref:`dbuild/xhtml/doxygen`
 * :ref:`search`
