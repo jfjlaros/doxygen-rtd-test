@@ -38,9 +38,9 @@ release = u''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-#extensions = []
-extensions = ['breathe', 'sphinx.ext.autodoc']
-breathe_projects = {'ctest': 'xml'}
+extensions = []
+#extensions = ['breathe', 'sphinx.ext.autodoc']
+#breathe_projects = {'ctest': 'xml'}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -173,4 +173,5 @@ epub_title = project
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
-breathe_domain_by_extension = { "h" : "c", "c" : "c", "inc" : "c" }
+#breathe_domain_by_extension = { "h" : "c", "c" : "c", "inc" : "c" }
+html_extra_path = ['html']
