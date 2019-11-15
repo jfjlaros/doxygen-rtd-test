@@ -16,6 +16,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import subprocess
+
+subprocess.call('doxygen', shell=True)
+
 
 # -- Project information -----------------------------------------------------
 
@@ -27,7 +31,6 @@ author = u'Me'
 version = u''
 # The full version, including alpha/beta/rc tags
 release = u''
-
 
 # -- General configuration ---------------------------------------------------
 
