@@ -6,7 +6,7 @@ author = u'Jeroen F.J. Laros'
 copyright = u'2019, {}'.format(author)
 
 extensions = ['breathe']
-beathe_version = '4.3.1'
+breathe_version = '4.3.1'
 breathe_projects = {'doxygen': 'xml'}
 breathe_default_project = 'doxygen'
 
