@@ -46,7 +46,6 @@ release = u''
 #extensions = []
 extensions = ['breathe'] #, 'sphinx.ext.autodoc']
 breathe_projects = {'ctest': 'xml'}
-breathe_default_project = 'ctest'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
