@@ -1,12 +1,13 @@
 #include <iostream>
 
-/// @file
+/// @defgroup print Print functions.
 
 using namespace std;
 
 
 /**
  * @fn test(H, Tail...)
+ * @ingroup print
  *
  * Some text here with *markdown* **a**. `--`
  */
