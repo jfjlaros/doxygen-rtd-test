@@ -12,7 +12,7 @@ Welcome to Test's documentation!
 
 
 .. autodoxygenindex::
-   :project: ctest
+   :project: auto
 
 
 Indices and tables
