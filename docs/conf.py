@@ -20,7 +20,7 @@ import subprocess
 
 #subprocess.call('doxygen; mv xhtml/index.html xhtml/doxygen.html', shell=True)
 #subprocess.call('doxygen; touch dbuild/doxygen.rst', shell=True)
-subprocess.call('pip install breathe==4.3.1; doxygen; touch dbuild/doxygen.rst', shell=True)
+#subprocess.call('pip install breathe==4.3.1; doxygen; touch dbuild/doxygen.rst', shell=True)
 
 
 # -- Project information -----------------------------------------------------
@@ -44,8 +44,9 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 #extensions = []
-extensions = ['breathe'] #, 'sphinx.ext.autodoc']
+extensions = ['breathe', 'sphinx.ext.autodoc']
 breathe_projects = {'ctest': 'xml'}
+breathe_default_project = 'ctest'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

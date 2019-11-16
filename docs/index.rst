@@ -10,9 +10,7 @@ Welcome to Test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-.. autodoxygenindex::
-
+.. doxygenindex::
 
 Indices and tables
 ==================
