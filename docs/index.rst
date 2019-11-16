@@ -10,7 +10,10 @@ Welcome to Test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. doxygenindex::
+<!-- .. doxygenindex:: -->
+
+.. doxygengroup:: print
+
 
 Indices and tables
 ==================
