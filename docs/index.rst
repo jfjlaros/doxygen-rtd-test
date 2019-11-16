@@ -12,7 +12,6 @@ Welcome to Test's documentation!
 
 
 .. autodoxygenindex::
-   :project: auto
 
 
 Indices and tables
