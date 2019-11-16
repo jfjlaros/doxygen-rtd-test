@@ -2,11 +2,12 @@ import subprocess
 
 
 project = u'Test'
-author = u'Me'
+author = u'Jeroen F.J. Laros'
+copyright = u'2019'
 
 extensions = ['breathe']
-breathe_projects = {'ctest': 'xml'}
-breathe_default_project = 'ctest'
+breathe_projects = {'doxygen': 'xml'}
+breathe_default_project = 'doxygen'
 
 master_doc = 'index'
 
