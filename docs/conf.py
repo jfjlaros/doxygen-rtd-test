@@ -10,7 +10,5 @@ breathe_default_project = 'ctest'
 
 master_doc = 'index'
 
-#html_theme = 'sphinx_rtd_theme'
-
 
 subprocess.call('pip install breathe==4.3.1; doxygen', shell=True)
