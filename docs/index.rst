@@ -10,9 +10,9 @@ Welcome to Test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   doxygen
-   ctest
 
+.. autodoxygenindex::
+   :project: ctest
 
 
 Indices and tables
@@ -20,12 +20,4 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
-* `dox </doxygen>`_
-* `dox2 </dbuild/doxygen>`_
-* `dox3 </xhtml/doxygen>`_
-* `dox4 </dbuild/xhtml/doxygen>`_
-* :ref:`doxygen`
-* :ref:`dbuild/doxygen`
-* :ref:`xhtml/doxygen`
-* :ref:`dbuild/xhtml/doxygen`
 * :ref:`search`
